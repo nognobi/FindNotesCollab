@@ -44,3 +44,13 @@
  
 
 }
+@media only screen and (max-width: 480px){
+    .container-fluid{
+        width: 100%;
+
+    }
+    .container-fluid img{
+        width: 100%;
+        
+    }
+}
