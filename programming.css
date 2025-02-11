@@ -1,3 +1,4 @@
+
 .container-fluid{
     width: 80%;
     height: fit-content;
@@ -45,12 +46,19 @@
 
 }
 @media only screen and (max-width: 480px){
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+      }
+      
     .container-fluid{
         width: 100%;
 
     }
     .container-fluid img{
-        width: 100%;
+        width: 100vh;
+        transform: scale(1.2
+        );
         
     }
 }
